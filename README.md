@@ -1,1 +1,1 @@
-This project was created for the freeCodeCamp Front End Libraries - [Build a Markdown Previewer](https://github.com/facebook/create-react-app) project.
+This project was created for the freeCodeCamp Front End Libraries - [Build a Markdown Previewer](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer) project.
