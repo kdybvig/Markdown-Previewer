@@ -2,7 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Editor = ({text, handleChange}) => (
-  <textarea id="editor" value={text} onChange={handleChange} />
+    <div id="editor-container" className="window">
+        <div className='window-label'>Edit</div>
+        <textarea id="editor" value={text} onChange={handleChange} />
+    </div>
 )
 
 Editor.propTypes = {

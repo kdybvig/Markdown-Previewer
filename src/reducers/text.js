@@ -18,8 +18,9 @@ And of course, images with quotes:
 
 ![Abraham Lincoln](./Abe.png "Abraham Lincoln")
 
-> Don't believe everything you read on the internet just because there's a quote with a picture on it.
->  -- Abraham Lincoln`
+> "Don't believe everything you read on the internet just because there's a quote with a picture on it."
+>
+>  \\- Abraham Lincoln`
 const text = (state = defaultText, action) => {
   switch (action.type) {
     case 'TEXT_CHANGE':

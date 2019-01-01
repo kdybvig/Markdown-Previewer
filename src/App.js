@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Preview from './components/Preview';
 import ControlledEditor from './containers/ControlledEditor';
 import ControlledPreview from './containers/ControlledPreview'; 
 
@@ -14,6 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1 className="title">Markdown Previewer</h1>
         <ControlledEditor />
         <ControlledPreview />
       </div>
